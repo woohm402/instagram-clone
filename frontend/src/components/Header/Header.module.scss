@@ -6,13 +6,16 @@
   height: 54px;
   border-bottom: 1px solid rgb(219, 219, 219);
   text-align: center;
+  z-index: 9;
+  background-color: white;
 }
 
 .header {
   display: inline-flex;
   max-width: 975px;
-  width: 975px;
+  width: 935px;
   height: 100%;
+  padding: 0 20px;
   align-items: center;
   justify-content: space-between;
 }

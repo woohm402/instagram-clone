@@ -1,0 +1,44 @@
+.main {
+  background-color: rgb(249, 249, 249);
+  margin-top: 54px;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.postListSection {
+  width: 614px;
+  margin-right: 321px;
+}
+
+.postList {
+  padding: 0;
+}
+
+.sidebar {
+  position: fixed;
+  width: 293px;
+  top: 70px;
+  right: calc(50% - 467.5px);
+}
+
+.storiesWrapper {
+  width: 614px;
+  height: 116px;
+  padding: 16px 0;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-bottom: 24px;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.postListItem {
+  width: 100%;
+  margin-bottom: 24px;
+  border-radius: 3px;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: #fff;
+}
