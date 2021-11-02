@@ -1,14 +1,18 @@
 import React from 'react';
 
-import { BrowserRouter, Redirect, Route } from 'react-router-dom';
+import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
+
+import Header from './components/Header/Header';
 
 const App: React.FC = () => {
   return (
     <>
-      <header>TODO header</header>
       <BrowserRouter>
-        <Route exact path={'/'} component={() => null} />
-        <Redirect to={'/'} />
+        <Header />
+        <Switch>
+          <Route exact path={'/'} component={() => null} />
+          <Redirect to={'/'} />
+        </Switch>
       </BrowserRouter>
     </>
   );
